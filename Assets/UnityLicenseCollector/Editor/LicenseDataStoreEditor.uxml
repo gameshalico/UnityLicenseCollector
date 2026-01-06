@@ -1,0 +1,60 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement style="padding: 10px;">
+        <ui:Label text="License Data Store" style="font-size: 16px; -unity-font-style: bold; margin-bottom: 10px;" />
+
+        <ui:VisualElement style="margin-bottom: 10px;">
+            <ui:Label text="Settings" style="font-size: 14px; -unity-font-style: bold; margin-bottom: 5px;" />
+            <uie:EnumField name="add-mode-field" label="Add Mode" tooltip="Skip: Skip if exists&#10;Overwrite: Update existing or add new&#10;Add: Always add (allows duplicates)" />
+        </ui:VisualElement>
+
+        <ui:VisualElement style="margin-bottom: 10px;">
+            <ui:Label text="Actions" style="font-size: 14px; -unity-font-style: bold; margin-bottom: 5px;" />
+            <ui:Button name="clear-all-button" text="Clear All Licenses" />
+        </ui:VisualElement>
+
+        <ui:VisualElement style="margin-top: 20px;">
+            <ui:Label name="status-label" text="Ready" style="margin-top: 10px; color: #888888;" />
+        </ui:VisualElement>
+
+        <uie:Toolbar name="tab-toolbar" style="margin-top: 20px;">
+            <uie:ToolbarToggle name="github-tab" text="GitHub" style="flex-grow: 1;" />
+            <uie:ToolbarToggle name="nuget-tab" text="NuGet" style="flex-grow: 1;" />
+            <uie:ToolbarToggle name="manual-tab" text="Manual" style="flex-grow: 1;" />
+        </uie:Toolbar>
+
+        <ui:VisualElement name="github-content" class="tab-content">
+            <ui:VisualElement style="margin-bottom: 10px;">
+                <ui:VisualElement class="button-row">
+                    <ui:Button name="extract-github-button" text="Extract from GitHub&#10;(manifest.json)" class="action-button" />
+                </ui:VisualElement>
+                <ui:Button name="remove-duplicate-github-button" text="Remove Duplicates (Check All Tabs)" style="margin-top: 5px;" />
+                <ui:Button name="clear-github-button" text="Clear GitHub Licenses" style="margin-top: 5px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="github-licenses-container" style="margin-top: 10px;" />
+        </ui:VisualElement>
+
+        <ui:VisualElement name="nuget-content" class="tab-content" style="display: none;">
+            <ui:VisualElement style="margin-bottom: 10px;">
+                <ui:VisualElement class="button-row">
+                    <ui:Button name="extract-nuget-local-button" text="Extract from NuGetForUnity&#10;(InstalledPackages)" class="action-button" />
+                    <ui:Button name="extract-nuget-api-button" text="Extract from NuGet API&#10;(packages.config)" class="action-button" />
+                </ui:VisualElement>
+                <ui:Button name="remove-duplicate-nuget-button" text="Remove Duplicates (Check All Tabs)" style="margin-top: 5px;" />
+                <ui:Button name="clear-nuget-button" text="Clear NuGet Licenses" style="margin-top: 5px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="nuget-licenses-container" style="margin-top: 10px;" />
+        </ui:VisualElement>
+
+        <ui:VisualElement name="manual-content" class="tab-content" style="display: none;">
+            <ui:VisualElement style="margin-bottom: 10px;">
+                <ui:VisualElement class="button-row">
+                    <ui:Button name="import-manual-button" text="Import from JSON" class="action-button" />
+                    <ui:Button name="export-manual-button" text="Export to JSON" class="action-button" />
+                </ui:VisualElement>
+                <ui:Button name="remove-duplicate-manual-button" text="Remove Duplicates (Check All Tabs)" style="margin-top: 5px;" />
+                <ui:Button name="clear-manual-button" text="Clear Manual Licenses" style="margin-top: 5px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="manual-licenses-container" style="margin-top: 10px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,10 @@
+{
+    "name": "com.gameshalico.unity-license-collector",
+    "version": "0.1.0",
+    "displayName": "Unity License Collector",
+    "description": "A Unity package to collect and manage Unity license information.",
+    "author": {
+        "name": "gameshalico",
+        "url": "https://github.com/gameshalico"
+    }
+}

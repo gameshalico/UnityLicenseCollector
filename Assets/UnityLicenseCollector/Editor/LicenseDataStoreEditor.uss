@@ -1,0 +1,56 @@
+.tab-content {
+    background-color: #333333;
+    padding: 12px;
+    margin-top: 0px;
+    border-width: 1px;
+    border-color: rgba(35, 35, 35, 0.8);
+    margin-left: -1px;
+}
+
+#tab-toolbar {
+    border-top-width: 1px;
+    border-color: rgba(35, 35, 35, 0.8);
+    border-bottom-width: 0px;
+}
+
+.license-item {
+    background-color: rgba(50, 50, 50, 0.3);
+    border-width: 1px;
+    border-color: rgba(35, 35, 35, 0.8);
+    border-radius: 2px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.license-header {
+    -unity-font-style: bold;
+    margin-bottom: 4px;
+}
+
+.license-url {
+    color: rgba(100, 150, 255, 1);
+    margin-bottom: 4px;
+}
+
+.license-text-container {
+    background-color: rgba(40, 40, 40, 0.5);
+    border-width: 1px;
+    border-color: rgba(30, 30, 30, 0.8);
+    border-radius: 2px;
+    padding: 6px;
+    margin-top: 4px;
+}
+
+.button-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.action-button {
+    flex-grow: 1;
+    min-height: 50px;
+    white-space: normal;
+    margin-left: 2px;
+    margin-right: 2px;
+}
