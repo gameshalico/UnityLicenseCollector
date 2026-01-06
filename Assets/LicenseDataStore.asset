@@ -14,5 +14,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityLicenseFetcher::UnityLicenseFetcher.LicenseDataStore
   _gitHubLicenses: []
   _nuGetLicenses: []
-  _manualLicenses: []
+  _manualLicenses:
+  - PackageName: test2
+    Authors: 
+    Version: 
+    ProjectUrl: 
+    LicenseUrl: 
+    LicenseIdentifier: 
+    LicenseContent: 
+  - PackageName: test1
+    Authors: 
+    Version: 
+    ProjectUrl: 
+    LicenseUrl: 
+    LicenseIdentifier: 
+    LicenseContent: 
+  - PackageName: test2
+    Authors: 
+    Version: 
+    ProjectUrl: 
+    LicenseUrl: 
+    LicenseIdentifier: 
+    LicenseContent: 
+  - PackageName: test1
+    Authors: 
+    Version: 
+    ProjectUrl: 
+    LicenseUrl: 
+    LicenseIdentifier: 
+    LicenseContent: 
   _addMode: 0

@@ -106,16 +106,16 @@ Manually manage license information.
 
 **JSON Format Example:**
 ```json
-{
-  "Licenses": [{
+[
+  {
     "PackageName": "MyCustomPackage",
     "Version": "1.0.0",
     "LicenseName": "MIT",
     "LicenseText": "MIT License\n\nCopyright (c) 2025...",
     "Author": "Author Name",
     "RepositoryUrl": "https://github.com/username/repo"
-  }]
-}
+  }
+]
 ```
 
 ##### Export to JSON

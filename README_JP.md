@@ -108,16 +108,16 @@ NuGetパッケージのライセンス情報を取得します。
 
 **JSONフォーマット例:**
 ```json
-{
-  "Licenses": [{
+[
+  {
     "PackageName": "MyCustomPackage",
     "Version": "1.0.0",
     "LicenseName": "MIT",
     "LicenseText": "MIT License\n\nCopyright (c) 2025...",
     "Author": "Author Name",
     "RepositoryUrl": "https://github.com/username/repo"
-  }]
-}
+  }
+]
 ```
 
 ##### JSONへエクスポート
