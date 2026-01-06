@@ -1,6 +1,7 @@
 # UnityLicenseCollector
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+[English version](./README.md)
 
 UnityプロジェクトにおけるGitHubパッケージとNuGetパッケージのライセンス情報を自動取得し、ScriptableObjectに保存するエディタ拡張ツールです。
 
