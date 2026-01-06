@@ -10,6 +10,10 @@ UnityLicenseCollectorは、プロジェクトで使用している外部パッ�
 - **NuGet**: NuGetパッケージマネージャー経由でインストールされたパッケージ
 - **Manual**: 手動で追加するカスタムライセンス情報
 
+
+![](./docs/screenshot_all.png)
+
+
 ## インストール
 
 ### インストール手順
@@ -44,6 +48,8 @@ UnityLicenseCollectorは、プロジェクトで使用している外部パッ�
 
 #### GitHubタブ
 
+![](./docs/screenshot_github.png)
+
 GitHubからパッケージのライセンス情報を取得します。
 
 1. **GitHub**タブを選択
@@ -57,6 +63,8 @@ GitHubからパッケージのライセンス情報を取得します。
 - **Clear GitHub Licenses**: GitHubライセンスのみクリア
 
 #### NuGetタブ
+
+![](./docs/screenshot_nuget.png)
 
 NuGetパッケージのライセンス情報を取得します。
 
@@ -84,6 +92,8 @@ NuGetパッケージのライセンス情報を取得します。
 - **Clear NuGet Licenses**: NuGetライセンスのみクリア
 
 #### Manualタブ
+
+![](./docs/screenshot_manual.png)
 
 手動でライセンス情報を管理します。
 
